@@ -145,13 +145,14 @@ nav li:hover {
 
 #project {
   background: var(--darker-color);
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 #project h2 {
   font-size: 6rem;
   text-align: center;
-  margin-top: 2rem 0;
+  margin: 2rem 0;
+  text-transform: uppercase;
 }
 
 .project_container {
@@ -199,4 +200,27 @@ nav li:hover {
   background: white;
   color: var(--dark-color);
   transform: translateY(8px);
+}
+
+#contact {
+  background-color: var(--dark-color);
+  padding: 4rem 0;
+}
+
+#contact h2 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.top_contact h4 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: var(--darker-color);
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 2rem;
 }
